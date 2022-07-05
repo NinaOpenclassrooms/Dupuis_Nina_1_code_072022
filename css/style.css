@@ -1,0 +1,98 @@
+/* Général */
+* {
+ box-sizing: border-box;
+ text-decoration: none;
+/* box-sizing est appliqué à tous les éléments */
+}
+*:visited { 
+   color: black;
+  }
+*:active { 
+   color: black;
+}
+.box {
+   box-sizing: border-box; /* Opera/IE 8+ */
+   -moz-box-sizing: border-box; /* Firefox, autres Gecko */
+   -webkit-box-sizing: border-box; /* Safari/Chrome, autres WebKit */
+}
+body {
+   font-family: 'Raleway', sans-serif;
+   font-size: 8px;
+   margin: 10px;
+  }
+
+/* En tête */
+#logo {
+    height: 20px;  
+}
+ul {
+   list-style-type: none;
+}
+nav ul {
+   display: flex;
+}
+nav li {
+   margin-right: 10px;
+}
+#conteneur_en_tete {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#hebergements:hover, #activites:hover {
+text-decoration: overline;
+color: #0065FC; /* FAIRE AUTRE REGLE POUR TELEPHONE */
+}
+
+/* Fonts */
+h1 {
+   color: black;
+   font-size: 120%;
+   font-weight: bold;
+}
+h2, #ville {
+   color: black;
+   font-size: 100%;
+   font-weight: bold;
+}
+h3 {
+   color: white;
+   font-size: 100%;
+   font-weight: normal;
+   padding: 6px;
+   border-radius: ; /* A COMPLETER */
+   background-color: #0065FC;
+}
+
+/* Section de recherche */
+#conteneur_de_formulaire_de_recherche {
+   display:flex;
+   justify-content:flex-start;
+   align-items: center;
+   position: relative; /* A COMPLETER */
+}
+form {
+   height: 22px;
+   position: relative; /* A COMPLETER */
+   top: 20px 40px; /* SYNTAXE A VERIFIER */
+}
+.fa-solid fa-location-dot {
+   height: 22px; /* A COMPLETER */
+}
+
+/* Main */
+#section2, aside, footer {
+   background-color: #F2F2F2; 
+}
+
+/* Footer */
+#conteneur_pied_de_page {
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+}
+.element_pied_de_page {
+   display:flex;
+   flex-direction:column;
+   align-items: flex-start;
+}
