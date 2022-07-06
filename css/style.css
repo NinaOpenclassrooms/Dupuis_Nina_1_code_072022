@@ -22,7 +22,7 @@
    }
    #section_filtres {
       display: flex;
-      flex-direction: column;
+      flex-direction: column; /* A MODIFIER CAR S'AFFICHE EN COLONNES SUR DESKTOP */
       align-items: flex-start;
    }
    #section_elements_filtres {
@@ -52,7 +52,7 @@
    }
 }
 /* Media Query Tablette */
-@media and (min-width: 769px) and (max-width: 992px)
+@media screen and (min-width: 769px) and (max-width: 992px)
 {
    #logo {
       height: 40px;  
