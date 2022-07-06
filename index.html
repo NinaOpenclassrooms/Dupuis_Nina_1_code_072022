@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initital-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous"/> <!--Lien avec le CDN de FontAwesome pour charger les îcones-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous"/> <!--Lien avec le CDN de FontAwesome pour charger les îcones A VERIFIER NE FONCTIONNE PAS-->
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link href="<link rel="preconnect" href="https://fonts.googleapis.com"> <!--Lien pour l'importation des polices-->
@@ -41,50 +41,110 @@
 
     <!--Section Filtres-->
     <div id="section_filtres">
-      <div class="element_filtre">
-        <h2>Filtres</h2> <!--J'EN SUIS LA-->
+        <h2>Filtres</h2>
+      <div id="section_elements_filtres">
+        <div class="element_filtres">
+        <i class="fa-solid fa-money-bill-wave" style="color:#0065FC"></i> <!--A VERIFIER--> <!--RAJOUTER DEBORDEMENT--> 
+        <h2>Économique</h2>
       </div>
-
-
-
-
+      <div class="element_filtres">
+        <i class="fa-solid fa-child-reaching" style="color:#0065FC"></i> <!--A VERIFIER--> <!--RAJOUTER DEBORDEMENT--> 
+        <h2>Familial</h2> 
+      </div>
+      <div class="element_filtres">
+        <i class="fa-solid fa-heart" style="color:#0065FC"></i> <!--A VERIFIER--> <!--RAJOUTER DEBORDEMENT--> 
+        <h2>Romantique</h2> 
+      </div>
+      <div class="element_filtres">
+        <i class="fa-regular fa-dog" style="color:#0065FC"></i> <!--A VERIFIER--> <!--RAJOUTER DEBORDEMENT--> 
+        <h2>Animaux autorisés</h2> 
+      </div>
+      </div>
     </div>
+    <div id="information">
+        <i class="fa-duotone fa-circle-info" style="color:#0065FC"></i> <!--A VERIFIER-->
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+    </div>
+
     <!--Main-->
     <main> 
       <!--Section 1-->
       <section id="section1">
         <aside>
           <h1>Les plus populaires</h1>
+          <i class="fa-solid fa-star" style="color:black"></i> <!--A VERIFIER-->
+          <div id="conteneur_aside">
+            <div class="element_aside">
+            </div>
+            <div class="element_aside">
+            </div>
+            <div class="element_aside">
+            </div>
+          </div>
         </aside>
         <article>
          <h1 id="ancre_hebergements">Hébergements à Marseille</h1>
+         <div id="conteneur_hebergements">
+          <div class="element_hebergements">
+          </div>
+            <div class="sous_elements_hebergements">
+            </div>
+            <div class="sous_elements_hebergements">
+            </div>
+            <div class="sous_elements_hebergements">
+            </div>
+          <div class="element_hebergements">
+            <div class="sous_elements_hebergements">
+            </div>
+            <div class="sous_elements_hebergements">
+            </div>
+            <div class="sous_elements_hebergements">
+            </div>
+          </div>
+         </div>
+         <h2>Afficher plus</h2>
         </article>
       </section>
+      <!--Section 2-->
       <section id="section2">
         <h1 id="ancre_activites">Activités à Marseille</h1>
+        <div id="conteneur_activites">
+          <div class="element_activites">
+          </div>
+          <div class="element_activites">
+            <div class="sous_element_activites">
+            </div>
+          </div>
+          <div class="element_activites">
+          </div>
+          <div class="element_activites">
+            <div class="sous_element_activites">
+            </div>
+          </div>
+        </div>
       </section>
     </main>
      <!--Footer-->
-    <footer id="conteneur_pied_de_page">
+    <footer>
       <div class="element_pied_de_page">
         <h2>A propos</h2>
         <ul>
-          <li><a href="#">Fonctionnement du site</a></li>
-          <li><a href="#">Conditions générales de vente</a></li> <!--A VERIFIER-->
+          <li><a href="#">Fonctionnement du site</a></li> </br>
+          <li><a href="#">Conditions générales de vente</a></li> </br>
           <li><a href="#">Données et confidentialité</a></li>
         </ul>
       </div>
       <div class="element_pied_de_page">
         <h2>Nos hébergements</h2>
         <ul>
-          <li> <a href="#">Charte qualité</a></li>
+          <li> <a href="#">Charte qualité</a></li> </br>
           <li> <a href="#">Soumettre votre hôtel</a></li>
         </ul>
       </div>
       <div class="element_pied_de_page">
        <h2>Assistance</h2>
        <ul>
-          <li> <a href="#">Centre d'aide</a></li>
+         <li> <a href="#">Centre d'aide</a></li> </br>
          <li> <a href="#">Nous contacter</a></li>
         </ul>
       </div>
